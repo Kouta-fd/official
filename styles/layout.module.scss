@@ -7,7 +7,7 @@
   position: fixed;
   padding: 10px 50px;
   width: 100%;
-  border-bottom: 2px solid $bg-purple;
+  box-shadow: 0 20px 30px -15px rgb(0 0 0 / 8%);
 
   &__logo {
     height: 35px;
@@ -18,4 +18,10 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 50px;
+}
+
+.footer {
+  color: $clr-gray;
+  text-align: right;
+  padding: 0 20px;
 }

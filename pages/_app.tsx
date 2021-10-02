@@ -1,3 +1,4 @@
+import { AppFooter } from "@/components/layouts/AppFooter"
 import AppHeader from "../components/layouts/AppHeader"
 import "../styles/globals.css"
 
@@ -6,6 +7,7 @@ function MyApp({ Component, pageProps }) {
     <div>
       <AppHeader />
       <Component {...pageProps} />
+      <AppFooter />
     </div>
   )
 }

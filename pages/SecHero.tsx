@@ -1,9 +1,10 @@
+import layout from "@/styles/layout.module.scss"
 import { FC } from "react"
 import style from "../styles/pages/home.module.scss"
 
 export const SecHero: FC = () => {
   return (
-    <section className={style.hero}>
+    <section className={`${style.hero} ${layout.container}`}>
       <div className={style.hero__imgSec}>
         <h1>
           <img
@@ -13,7 +14,7 @@ export const SecHero: FC = () => {
           />
         </h1>
         <h2 className={style.hero__txt}>
-          同志社大学 エンジニアのためのコミュニティ
+          同志社大学・同志社女子大学 エンジニアのためのコミュニティ
         </h2>
       </div>
     </section>

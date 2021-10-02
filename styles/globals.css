@@ -1,11 +1,15 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("/font/Rubik-Regular.ttf");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "ヒラギノ角ゴシック", "Hiragino Sans", "ヒラギノ角ゴ ProN W3",
-    "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
+  font-family: Rubik, "Noto Sans JP", sans-serif;
   color: #242a33dd;
+  letter-spacing: 1px;
 }
 
 a {
