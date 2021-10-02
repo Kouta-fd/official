@@ -1,0 +1,18 @@
+@import "./mixins/base.scss";
+
+.header {
+  display: flex;
+  background-color: $bg-white;
+  align-items: center;
+  position: fixed;
+  padding: 10px;
+
+  &__logo {
+    height: 35px;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
