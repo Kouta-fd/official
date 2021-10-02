@@ -5,7 +5,9 @@
   background-color: $bg-white;
   align-items: center;
   position: fixed;
-  padding: 10px;
+  padding: 10px 50px;
+  width: 100%;
+  border-bottom: 2px solid $bg-purple;
 
   &__logo {
     height: 35px;
@@ -15,4 +17,5 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 50px;
 }

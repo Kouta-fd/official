@@ -2,21 +2,10 @@
 
 .home {
   min-height: 100vh;
-
-  &__hero {
-    // background-color: $clr-purple;
-    display: flex;
-    height: 1050px;
-    vertical-align: middle;
-    // background: #ffffffaa url("../../public/home_hero.jpg") no-repeat 50% fixed;
-    // background-size: cover;
-    // background-color: rgba(0, 0, 255, 0.8);
-    // background-blend-mode: lighten;
-  }
 }
 
 .hero {
-  height: 1050px;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,5 +26,14 @@
     font-size: 20px;
     font-weight: bold;
     letter-spacing: 1spx;
+  }
+}
+
+.about {
+  &__descriptions {
+    display: flex;
+  }
+  &__icon {
+    width: 200px;
   }
 }
