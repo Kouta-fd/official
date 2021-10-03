@@ -13,7 +13,7 @@ export const SecAbout: FC = () => {
             <p className={style.about__title}>エンジニア同士の交流</p>
             <img
               className={style.about__icon}
-              src="icons/community.svg"
+              src="icons/about/community.svg"
               alt=""
             />
             <p className={style.about__description}>
@@ -25,7 +25,11 @@ export const SecAbout: FC = () => {
           </div>
           <div className={style.about__item}>
             <p className={style.about__title}>チームでのアプリ開発</p>
-            <img className={style.about__icon} src="icons/desktop.svg" alt="" />
+            <img
+              className={style.about__icon}
+              src="icons/about/desktop.svg"
+              alt=""
+            />
             <p className={style.about__description}>
               サークル内で使用するツールの開発や、ハッカソンなどを通して、チーム開発の経験を積むことができます。
               <br />
@@ -34,7 +38,11 @@ export const SecAbout: FC = () => {
           </div>
           <div className={style.about__item}>
             <p className={style.about__title}>勉強会・LT会</p>
-            <img className={style.about__icon} src="icons/LT.svg" alt="" />
+            <img
+              className={style.about__icon}
+              src="icons/about/LT.svg"
+              alt=""
+            />
             <p className={style.about__description}>
               技術的な勉強会に加えて、メンバーが興味を持っている技術領域についてのLT会などを開催する予定です。
               <br />

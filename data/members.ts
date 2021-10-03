@@ -1,5 +1,6 @@
 export const members = [
   {
+    id: 1,
     name: "小森 一輝",
     name_eng: "Kazuki Komori",
     position: "Engineer / Frontend",
@@ -9,6 +10,7 @@ export const members = [
     github: "kazuki-komori",
   },
   {
+    id: 2,
     name: "福田 晃大",
     name_eng: "Kouta Fukuda",
     position: "Engineer / Frontend",

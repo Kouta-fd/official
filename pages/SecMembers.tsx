@@ -14,7 +14,7 @@ export const SecMembers: FC = () => {
         </p>
         <div className={style.members__items}>
           {members.map((member) => (
-            <div className={style.members__item}>
+            <div key={member.id} className={style.members__item}>
               <img
                 className={style.members__img}
                 src={`https://github.com/${member.github}.png?size=125`}
