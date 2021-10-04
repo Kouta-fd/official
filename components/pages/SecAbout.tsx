@@ -7,7 +7,7 @@ export const SecAbout: FC = () => {
   return (
     <section className={style.about}>
       <div className={layout.container}>
-        <SecTitle title="About" />
+        <SecTitle title="About" type="white" />
         <div className={style.about__items}>
           <div className={style.about__item}>
             <p className={style.about__title}>エンジニア同士の交流</p>

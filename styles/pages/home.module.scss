@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: center;
   vertical-align: middle;
+  background-color: $clr-purple-white;
 
   &__imgSec {
     margin-bottom: 200px;
@@ -44,7 +45,7 @@
     margin-top: 30px;
     padding: 20px;
     border-radius: 18px;
-    background-color: white;
+    background-color: $clr-purple-white;
     font-size: 20px;
     box-shadow: 0 20px 30px -15px rgb(0 0 0 / 8%);
   }
@@ -73,7 +74,7 @@
 }
 
 .members {
-  background-color: white;
+  background-color: $clr-purple-white;
   padding: 60px 0;
 
   &__title {
@@ -129,6 +130,7 @@
   &__title {
     font-size: 24px;
     font-weight: bold;
+    color: $clr-purple-white;
   }
 
   &__items {
@@ -159,5 +161,63 @@
     text-align: center;
     letter-spacing: 1px;
     line-height: 20px;
+  }
+}
+
+.contact {
+  padding: 60px 0;
+
+  &__txt {
+    margin: 40px 0;
+    text-align: center;
+  }
+
+  &__form {
+    &_grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 15px;
+    }
+  }
+
+  &__formSec {
+    margin: 0 175px;
+    padding: 15px;
+    background-color: #edf2f7;
+    border-radius: 5px;
+    box-shadow: 0 20px 30px -15px rgb(0 0 0 / 8%);
+    color: #555;
+    letter-spacing: normal;
+  }
+
+  &__txtarea {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 10px;
+    color: #555;
+  }
+
+  &__txtarea:focus {
+    box-shadow: 0 0 5px 0 #5e1981;
+    outline: 0;
+  }
+
+  &__btn {
+    display: block;
+    margin: 30px auto;
+    font-size: 20px;
+    border: #5e1981 2px solid;
+    border-radius: 3px;
+    background-color: white;
+    padding: 10px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #5e1981;
+      color: white;
+    }
   }
 }

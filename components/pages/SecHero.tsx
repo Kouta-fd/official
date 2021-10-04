@@ -1,6 +1,6 @@
 import layout from "@/styles/layout.module.scss"
+import style from "@/styles/pages/home.module.scss"
 import { FC } from "react"
-import style from "../styles/pages/home.module.scss"
 
 export const SecHero: FC = () => {
   return (

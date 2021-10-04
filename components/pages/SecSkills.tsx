@@ -8,7 +8,7 @@ export const SecSkills: FC = () => {
   return (
     <section className={style.skills}>
       <div className={layout.container}>
-        <SecTitle title="Skills" />
+        <SecTitle title="Skills" type="white" />
         <div className={style.skills__section}>
           <p className={style.skills__title}>Web Frontend</p>
           <div className={style.skills__items}>

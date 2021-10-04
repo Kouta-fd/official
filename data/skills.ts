@@ -13,7 +13,7 @@ export const skills = {
       icon: "/vue.svg",
     },
     {
-      name: "Nuxt.js",
+      name: "Next.js",
       icon: "/vue.svg",
     },
     {

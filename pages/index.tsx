@@ -1,9 +1,10 @@
+import { SecAbout } from "@/components/pages/SecAbout"
+import { SecContact } from "@/components/pages/SecContact"
+import { SecHero } from "@/components/pages/SecHero"
+import { SecMembers } from "@/components/pages/SecMembers"
+import { SecSkills } from "@/components/pages/SecSkills"
+import style from "@/styles/pages/home.module.scss"
 import { FC } from "react"
-import style from "../styles/pages/home.module.scss"
-import { SecAbout } from "./SecAbout"
-import { SecHero } from "./SecHero"
-import { SecMembers } from "./SecMembers"
-import { SecSkills } from "./SecSkills"
 
 export const Home: FC = () => {
   return (
@@ -12,6 +13,7 @@ export const Home: FC = () => {
       <SecAbout />
       <SecMembers />
       <SecSkills />
+      <SecContact />
     </div>
   )
 }

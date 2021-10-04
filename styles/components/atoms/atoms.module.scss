@@ -5,4 +5,20 @@
   font-weight: bold;
   text-align: center;
   margin: 0;
+
+  &__txt_white {
+    color: $clr-purple-white;
+  }
+}
+
+.formInput {
+  border-radius: 3px;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+
+  &:focus {
+    box-shadow: 0 0 5px 0 #5e1981;
+    outline: 0;
+  }
 }
